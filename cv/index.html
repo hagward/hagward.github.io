@@ -1,134 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Quicksand"
+      rel="stylesheet"
+    />
+    <title>Anders Hagward</title>
+    <style>
+      body {
+        color: #333;
+        font: 1.2rem "Quicksand", sans-serif;
+        line-height: 1.45;
+        padding: 1.2rem;
+        padding-top: 0;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Quicksand" rel="stylesheet">
-  <title>Anders Hagward</title>
-  <style>
-    body {
-      color: #333;
-      font: 1.2rem 'Quicksand', sans-serif;
-      line-height: 1.45;
-      padding: 1.2rem;
-      padding-top: 0;
-    }
+      article {
+        margin: auto;
+        max-width: 44rem;
+      }
 
-    article {
-      margin: auto;
-      max-width: 44rem;
-    }
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Merriweather", serif;
+        margin: 1.414em 0 0.5em;
+        font-weight: inherit;
+        line-height: 1.2;
+      }
 
-    h1,
-    h2,
-    h3,
-    h4 {
-      font-family: 'Merriweather', serif;
-      margin: 1.414em 0 0.5em;
-      font-weight: inherit;
-      line-height: 1.2;
-    }
+      h1 {
+        font-size: 2.441em;
+      }
 
-    h1 {
-      font-size: 2.441em;
-    }
+      h2 {
+        font-size: 1.953em;
+      }
 
-    h2 {
-      font-size: 1.953em;
-    }
+      h3 {
+        font-size: 1.563em;
+      }
 
-    h3 {
-      font-size: 1.563em;
-    }
+      h4 {
+        font-size: 1.25em;
+      }
+    </style>
+  </head>
 
-    h4 {
-      font-size: 1.25em;
-    }
-  </style>
-</head>
+  <body>
+    <article>
+      <h1>Anders Hagward</h1>
+      <section>
+        <h2>Experience</h2>
+        <h3>
+          Software Engineer at <a href="https://www.decerno.se/">Decerno</a>
+        </h3>
+        <h4>August 2018 - Present</h4>
+        <ul>
+          <li>
+            Currently working on a GIS related project with a .NET, TypeScript
+            and React stack.
+          </li>
+        </ul>
+        <h3>
+          Software Engineer at <a href="https://www.avinode.com/">Avinode</a>
+        </h3>
+        <h4>February 2016 - August 2018</h4>
+        <ul>
+          <li>
+            Took lead on the frontend stack for a new project, which included
+            React, TypeScript and Webpack.
+          </li>
+          <li>
+            Designed and implemented a six letter alphanumeric trip ID, with the
+            goal of having it "look", but not actually be, random.
+          </li>
+          <li>
+            Co-developed a real-time chat system during innovation week, using
+            JMS and WebSockets.
+          </li>
+          <li>
+            Developed a score board that utilized SonarQube to score developers
+            based on fixed bugs and code smells per week. The intention was to
+            motivate people to keep the code base clean, and to introduce them
+            to SonarQube.
+          </li>
+          <li>Migrated data to a new data warehouse.</li>
+          <li>
+            Refactored to use Java 8's Optional instead of Guava's throughout
+            the system.
+          </li>
+          <li>Set up an npm proxy in the wake of the "left-pad incident".</li>
+        </ul>
+        <h3>
+          Software Engineer at <a href="https://www.idevio.com/">Idevio</a>
+        </h3>
+        <h4>February 2015 - January 2016</h4>
+        <ul>
+          <li>
+            Co-developed a traffic information app for Android that received
+            first prize at Volvo Trucks Open Innovation Challenge.
+          </li>
+          <li>
+            Worked on map extensions in JavaScript and HTML5 for a business
+            intelligence platform. Improved performance, implemented new
+            functionality such as hexagonal binning and was involved in an
+            extensive refactoring project.
+          </li>
+          <li>Worked on a JavaScript and HTML5-based map engine in GWT.</li>
+          <li>
+            Overhauled and modernized the Vaadin-based administration interface
+            for a map server.
+          </li>
+        </ul>
+        <h3>Part-time math and physics teacher at Extracoach</h3>
+        <h4>Mars 2013 - June 2013</h4>
+        <ul>
+          <li>Taught math and physics to two high school students.</li>
+          <li>
+            Held math classes during a weekend to prepare students for the
+            national exam.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <h3>
+          M.S. Computer Science at
+          <a href="https://www.kth.se/en">Royal Institute of Technology</a> and
+          <a href="https://www.titech.ac.jp/english/"
+            >Tokyo Institute of Technology</a
+          >
+        </h3>
+        <h4>August 2012 - August 2015</h4>
+        <ul>
+          <li>
+            Investigated the potential of using Git commit history to find files
+            that are often changed together, and use that information for
+            predictive code assistment.
+          </li>
+          <li>
+            Wrote a toolkit in Java and R for mining Git repositories at
+            <a href="http://www.sa.cs.titech.ac.jp/en/">Kobayashi Laboratory</a
+            >, Tokyo Institute of Technology. Used for
+            <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-172998"
+              >my Master's thesis</a
+            >
+            and
+            <a href="https://scholar.google.com/scholar?q=%22anders+hagward%22"
+              >a few other papers</a
+            >.
+          </li>
+        </ul>
+        <h3>
+          B.S. Computer Science at
+          <a href="https://www.kth.se/en">Royal Institute of Technology</a>
+        </h3>
+        <h4>August 2009 - June 2012</h4>
+        <ul>
+          <li>
+            Implemented and evaluated a
+            <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-131037"
+              >19 tone digital synthesizer</a
+            >.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Portfolio</h2>
+        <ul>
+          <li>
+            <a href="https://hagward.github.io/vip.elm/"
+              >Clone of the Vidya Intarweb Playlist</a
+            >
+            written in Elm.
+          </li>
+          <li>
+            <a href="https://hagward.github.io/vasttrafik-react/"
+              >Progressive web app</a
+            >
+            for finding trips with Västtrafik's API.
+          </li>
+          <li>
+            <a href="https://github.com/hagward/foosball-leaderboard"
+              >Foosball leaderboard</a
+            >
+            with Elo ratings and teams.
+          </li>
+          <li>
+            <a href="https://github.com/hagward/emul8">CHIP-8 emulator</a> in
+            Java.
+          </li>
+          <li>
+            <a
+              href="https://chrome.google.com/webstore/detail/titech-portal-auto-login/mglldflbijilmkimahfloeogpfldnpam"
+              >Chrome extension</a
+            >
+            for a simpler login process at Tokyo Tech Portal.
+          </li>
 
-<body>
-  <article>
-    <h1>Anders Hagward</h1>
-    <section>
-      <h2>Experience</h2>
-      <h3>Software Engineer at <a href="https://www.decerno.se/">Decerno</a></h3>
-      <h4>August 2018 - Present</h4>
-      <ul>
-        <li>Currently working on a GIS related project with a .NET, TypeScript and React stack.</li>
-      </ul>
-      <h3>Software Engineer at <a href="https://www.avinode.com/">Avinode</a></h3>
-      <h4>February 2016 - August 2018</h4>
-      <ul>
-        <li>Took lead on the frontend stack for a new project, which included React, TypeScript and Webpack.</li>
-        <li>Designed and implemented a six letter alphanumeric trip ID, with the goal of having it "look", but
-          not actually be, random.</li>
-        <li>Co-developed a real-time chat system during innovation week, using JMS and WebSockets.</li>
-        <li>Developed a score board that utilized SonarQube to score developers based on fixed bugs and code
-          smells per week. The intention was to motivate people to keep the code base clean, and to introduce
-          them to SonarQube.</li>
-        <li>Migrated data to a new data warehouse.</li>
-        <li>Refactored to use Java 8's Optional instead of Guava's throughout the system.</li>
-        <li>Set up an npm proxy in the wake of the "left-pad incident".</li>
-      </ul>
-      <h3>Software Engineer at <a href="https://www.idevio.com/">Idevio</a></h3>
-      <h4>February 2015 - January 2016</h4>
-      <ul>
-        <li>Co-developed a traffic information app for Android that received first prize at Volvo Trucks Open
-          Innovation Challenge.</li>
-        <li>Worked on map extensions in JavaScript and HTML5 for a business intelligence platform. Improved
-          performance, implemented new functionality such as hexagonal binning and was involved in an
-          extensive refactoring project.</li>
-        <li>Worked on a JavaScript and HTML5-based map engine in GWT.</li>
-        <li>Overhauled and modernized the Vaadin-based administration interface for a map server.</li>
-      </ul>
-      <h3>Part-time math and physics teacher at Extracoach</h3>
-      <h4>Mars 2013 - June 2013</h4>
-      <ul>
-        <li>Taught math and physics to two high school students.</li>
-        <li>Held math classes during a weekend to prepare students for the national exam.</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Education</h2>
-      <h3>M.S. Computer Science at <a href="https://www.kth.se/en">Royal Institute of Technology</a> and <a href="https://www.titech.ac.jp/english/">Tokyo
-          Institute of Technology</a></h3>
-      <h4>August 2012 - August 2015</h4>
-      <ul>
-        <li>Investigated the potential of using Git commit history to find files that are often changed
-          together, and use that information for predictive code assistment.</li>
-        <li>Wrote a toolkit in Java and R for mining Git repositories at <a href="http://www.sa.cs.titech.ac.jp/en/">Kobayashi
-            Laboratory</a>, Tokyo Institute of Technology. Used for <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-172998">my
-            Master's thesis</a> and <a href="https://scholar.google.com/scholar?q=%22anders+hagward%22">a few
-            other papers</a>.</li>
-      </ul>
-      <h3>B.S. Computer Science at <a href="https://www.kth.se/en">Royal Institute of Technology</a></h3>
-      <h4>August 2009 - June 2012</h4>
-      <ul>
-        <li>Implemented and evaluated a <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-131037">19
-            tone digital synthesizer</a>.</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Portfolio</h2>
-      <ul>
-        <li><a href="https://hagward.github.io/vip.elm/">Clone of the Vidya Intarweb Playlist</a> written in Elm.</li>
-        <li><a href="https://hagward.github.io/vasttrafik-react/">Progressive web app</a> for finding trips
-          with Västtrafik's API.</li>
-        <li><a href="https://github.com/hagward/foosball-leaderboard">Foosball leaderboard</a> with Elo ratings
-          and teams.</li>
-        <li><a href="https://github.com/hagward/emul8">CHIP-8 emulator</a> in Java.</li>
-        <li><a href="https://chrome.google.com/webstore/detail/titech-portal-auto-login/mglldflbijilmkimahfloeogpfldnpam">Chrome
-            extension</a> for a simpler login process at Tokyo Tech Portal.</li>
-
-        <li>Solved 92 problems on <a href="https://projecteuler.net/profile/Paprika.png">Project Euler</a>.</li>
-        <li>Simple chat client and server in Java, together with a <a href="http://deferochat.sourceforge.net/">website</a>.
-          Final project in high school.</li>
-      </ul>
-    </section>
-  </article>
-</body>
-
+          <li>
+            Solved 92 problems on
+            <a href="https://projecteuler.net/profile/Paprika.png"
+              >Project Euler</a
+            >.
+          </li>
+          <li>
+            Simple chat client and server in Java, together with a
+            <a href="http://deferochat.sourceforge.net/">website</a>. Final
+            project in high school.
+          </li>
+        </ul>
+      </section>
+    </article>
+  </body>
 </html>
