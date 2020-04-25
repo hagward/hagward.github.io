@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Merriweather|Quicksand"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Anders Hagward</title>
     <style>
       body {
@@ -58,6 +59,16 @@
         text-decoration: none;
       }
 
+      a > svg:hover {
+        fill: #0074d9;
+      }
+
+      header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+      }
+
       @media (prefers-color-scheme: dark) {
         body {
           color: #f7f7f7;
@@ -67,15 +78,27 @@
         a {
           color: #7fdbff;
         }
+
+        a > svg:hover {
+          fill: #7fdbff;
+        }
       }
     </style>
   </head>
 
   <body>
     <article>
-      <h1>Anders Hagward</h1>
+      <header>
+        <h1>Anders Hagward</h1>
+        <a href="https://github.com/hagward" title="GitHub">
+          <i data-feather="github"></i>
+        </a>
+      </header>
       <section>
-        <h2>Experience</h2>
+        <h2>
+          <i data-feather="globe"></i>
+          Experience
+        </h2>
         <hgroup>
           <h3>
             Software Engineer at <a href="https://www.monocl.com/">Monocl</a>
@@ -170,7 +193,10 @@
         </ul>
       </section>
       <section>
-        <h2>Education</h2>
+        <h2>
+          <i data-feather="book"></i>
+          Education
+        </h2>
         <hgroup>
           <h3>
             M.S. Computer Science at
@@ -218,7 +244,10 @@
         </ul>
       </section>
       <section>
-        <h2>Portfolio</h2>
+        <h2>
+          <i data-feather="briefcase"></i>
+          Portfolio
+        </h2>
         <ul>
           <li>
             <a href="https://hagward.github.io/vip.elm/"
@@ -264,5 +293,9 @@
         </ul>
       </section>
     </article>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
